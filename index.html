@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="vw">
+    <script src="Emi.js"></script>
+    <link rel="stylesheet" href="interest.css">
+    <title>Principle Amount Calculator</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3557/3557742.png">
+
+</head>
+<body >
+    <div class="main">
+        <p>
+            <label>Principal Amount</label><br>
+            <input type="text" id="pamt" autofocus><span>&nbsp;&#8377</span>
+        </p>
+        <p>
+            <label>Rate of Interest</label><br>
+            <input type="text" id="roi" ><span>&nbsp;%</span>
+        </p>
+        <p>
+            <label>Time</label><br>
+            <input type="text" id="time" ><span>&nbsp;Year(s)</span>
+        </p>
+        <p>
+            <input type="image" src="https://www.transparentpng.com/thumb/submit-button/fSfd92-submit-button-free-transparent-png.png" onclick="getAmount()">
+            
+
+        </p>
+        <p>
+            <output id="interest"></output><br>
+            <output id="totalamt"></output>
+        </p>
+        
+        
+
+    </div>
+</body>
+</html>
